@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<title>Generador de códigos QR</title>
+<style type="text/css">
+input, textarea {width:200px;margin:4px;padding:4px;border:#000000 1px solid;background:none;box-sizing:border-box;overflow:auto}
+</style>
+<script type="text/javascript" src="qrcode.js"></script>
+</head>
+<body>
+<h2>Generador de Códigos QR</h2>
+<div data-role="content">
+<form>
+<textarea name="msg" rows="10">Texto a codificar</textarea><br> 
+<input type="button" value="Generar" onclick="update_qrcode()">
+</form>
+<div id="qr"></div>
+</div>
+</body>
+</html>
